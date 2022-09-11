@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/nome_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="BFCão"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/campo_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Endereço de e-mail"/>
+
+    <EditText
+        android:id="@+id/campo_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Senha"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lembrar login" />
+
+
+    <TextView
+        android:id="@+id/link_recuperar_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Esqueci a senha" />
+
+    <Button
+        android:id="@+id/botao_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENTRAR"
+        android:stateListAnimator="@null"/>
+
+    <TextView
+        android:id="@+id/link_cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Não tem uma conta? Cadastre-se!"
+        android:textAlignment="center" />
+
+
+</LinearLayout>
