@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
-        android:hint="Senha"/>
+        android:hint="Digite sua senha"/>
 
     <CheckBox
         android:id="@+id/checkBoxLogin"
@@ -63,6 +63,7 @@
         android:layout_height="wrap_content"
         android:text="Não tem uma conta? Cadastre-se!"
         android:textAlignment="center" />
+
 
 
 </LinearLayout>
